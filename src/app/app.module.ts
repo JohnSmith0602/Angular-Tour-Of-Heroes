@@ -15,7 +15,7 @@ import { MessagesComponent } from './messages/messages.component';
     MessagesComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     FormsModule
   ],
   providers: [],
